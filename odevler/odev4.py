@@ -1,0 +1,5 @@
+metin = input("kendinden bahset:")
+aranan = input("aramak istedigin kelimeyi gir:")
+index = metin.find(aranan)
+print (index)
+print ("girdiginiz metin {} aradiginiz kelime {} ve {} indexten itibaren başliyor.".format(metin,aranan,index))
